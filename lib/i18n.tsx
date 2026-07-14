@@ -50,7 +50,26 @@ const fr = {
   },
   projects: {
     title: "Autres projets",
-    items: [
+    visit: "Voir le site",
+    featured: [
+      {
+        name: "Tahiti Smoothies",
+        desc: "Site vitrine d'une enseigne de smoothies en Polynésie, conçu en appui du lancement d'un second point de vente.",
+        tech: "React, Vite",
+        url: "https://www.tahitismoothies.pf/",
+        image: "/projects/tahiti-smoothies.jpg",
+        alt: "Page d'accueil du site Tahiti Smoothies",
+      },
+      {
+        name: "Bored Lama Yacht Club",
+        desc: "Landing et mint d'une collection NFT de 10 000 lamas sur un thème Machu Picchu, avec connexion wallet.",
+        tech: "Next.js, Web3",
+        url: "https://boredlamayachtclub.vercel.app/",
+        image: "/projects/bored-lama.jpg",
+        alt: "Page d'accueil du site Bored Lama Yacht Club",
+      },
+    ],
+    more: [
       {
         name: "Réponses IA aux avis Google",
         desc: "SaaS qui rédige et publie des réponses aux avis Google des PME locales. En développement.",
@@ -58,13 +77,8 @@ const fr = {
       },
       {
         name: "Murmure",
-        desc: "App macOS de dictée vocale : transcription locale, insertion du texte dans n'importe quelle app.",
+        desc: "App macOS de dictée vocale : transcription locale, insertion du texte dans n'importe quelle app.",
         tech: "Swift",
-      },
-      {
-        name: "Tahiti Smoothies",
-        desc: "Site web d'une enseigne polynésienne, en appui du lancement d'un second point de vente.",
-        tech: "Web",
       },
     ],
   },
@@ -232,7 +246,26 @@ const en: typeof fr = {
   },
   projects: {
     title: "Other projects",
-    items: [
+    visit: "Visit site",
+    featured: [
+      {
+        name: "Tahiti Smoothies",
+        desc: "Storefront site for a French Polynesian smoothie brand, built to support the launch of a second location.",
+        tech: "React, Vite",
+        url: "https://www.tahitismoothies.pf/",
+        image: "/projects/tahiti-smoothies.jpg",
+        alt: "Tahiti Smoothies website home page",
+      },
+      {
+        name: "Bored Lama Yacht Club",
+        desc: "Landing and mint page for a 10,000-piece NFT collection on a Machu Picchu theme, with wallet connect.",
+        tech: "Next.js, Web3",
+        url: "https://boredlamayachtclub.vercel.app/",
+        image: "/projects/bored-lama.jpg",
+        alt: "Bored Lama Yacht Club website home page",
+      },
+    ],
+    more: [
       {
         name: "AI replies to Google reviews",
         desc: "SaaS that drafts and publishes replies to local businesses' Google reviews. In development.",
@@ -242,11 +275,6 @@ const en: typeof fr = {
         name: "Murmure",
         desc: "macOS dictation app: local transcription that types into any application.",
         tech: "Swift",
-      },
-      {
-        name: "Tahiti Smoothies",
-        desc: "Website for a French Polynesian brand, supporting the launch of a second location.",
-        tech: "Web",
       },
     ],
   },
