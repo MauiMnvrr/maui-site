@@ -57,7 +57,7 @@ export function Projects() {
                   alt={project.alt}
                   fill
                   sizes="(min-width: 768px) 50vw, 100vw"
-                  className="object-cover object-top transition duration-500 group-hover:scale-[1.04]"
+                  className="site-shot object-cover"
                 />
               </div>
 
