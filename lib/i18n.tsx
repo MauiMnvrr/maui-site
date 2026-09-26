@@ -111,7 +111,7 @@ const fr = {
         desc: "Agence de transformation digitale en Polynésie française : outils sur mesure, création web, formation à l'IA.",
       },
       {
-        dates: "Oct. 2025 - sept. 2026",
+        dates: "Oct. 2025 - Sept. 2026",
         role: "Concepteur & développeur produit",
         org: "Boumrank, Marseille",
         desc: "SaaS de gamification pour commerçants locaux, du concept au déploiement.",
