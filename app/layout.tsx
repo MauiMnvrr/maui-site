@@ -8,15 +8,14 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  // TODO: remplacer par le domaine final une fois choisi (ex: https://mauimanavarere.com)
-  metadataBase: new URL("https://maui-manavarere.vercel.app"),
-  title: "Maui Manavarere - Marketing digital & produit",
+  metadataBase: new URL("https://mauimanavarere.com"),
+  title: "Maui Manavarere - Marketing digital, développement web et IA",
   description:
-    "Marketeur digital qui conçoit et code ses propres outils. SEO, acquisition, data et IA. Fondateur de Boumrank, basé à Marseille.",
+    "Marketing digital, développement web et IA pour les TPE, les commerces et les SaaS. Fondateur d'Iaora Labs, je travaille à distance depuis Tahiti, en Polynésie française.",
   openGraph: {
-    title: "Maui Manavarere - Marketing digital & produit",
+    title: "Maui Manavarere - Marketing digital, développement web et IA",
     description:
-      "Marketeur digital qui conçoit et code ses propres outils. SEO, acquisition, data et IA. Fondateur de Boumrank, basé à Marseille.",
+      "Marketing digital, développement web et IA pour les TPE, les commerces et les SaaS. Fondateur d'Iaora Labs, je travaille à distance depuis Tahiti, en Polynésie française.",
     locale: "fr_FR",
     alternateLocale: "en_US",
     type: "website",

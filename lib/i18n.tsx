@@ -21,7 +21,7 @@ const fr = {
   hero: {
     title1: "Je conçois la stratégie.",
     title2: "Je code l'outil.",
-    sub: "SEO, acquisition, data et IA. Marketeur formé à KEDGE, je développe moi-même les produits que j'imagine. Basé à Marseille.",
+    sub: "Marketing digital, développement web et IA pour les TPE, les commerces et les SaaS. Je conçois le site ou l'outil, je l'amène à ses premiers clients et j'y branche de l'IA. À distance, depuis Tahiti.",
     ctaProjects: "Voir mes projets",
     ctaContact: "Contact",
     portraitAlt: "Portrait de Maui Manavarere",
@@ -29,7 +29,7 @@ const fr = {
   boumrank: {
     title: "Boumrank : conçu, codé, déployé.",
     lead: "Un QR code en boutique, un mini-jeu, une récompense : Boumrank transforme le passage en caisse en avis Google et en clients fidèles.",
-    role: "J'ai conçu et développé l'intégralité du produit : parcours de jeu, logique utilisateur, automatisations. Il tourne aujourd'hui chez plusieurs commerçants marseillais.",
+    role: "D'octobre 2025 à septembre 2026, j'ai participé au lancement, puis conçu et développé l'intégralité du produit : parcours de jeu, logique utilisateur, automatisations. Il a été déployé chez plusieurs commerçants.",
     facts: [
       {
         title: "Statut national d'étudiant-entrepreneur",
@@ -40,18 +40,42 @@ const fr = {
         desc: "Accompagné au sein d'Aix-Marseille Université.",
       },
       {
-        title: "En production",
-        desc: "Utilisé en boutique, en conditions réelles, tous les jours.",
+        title: "Déployé en boutique",
+        desc: "Mis en service chez plusieurs commerçants, en conditions réelles.",
       },
     ],
-    link: "Visiter boumrank.com",
-    altHome: "Page d'accueil du site boumrank.com",
+    link: "Visiter boumrank.fr",
+    altHome: "Page d'accueil du site boumrank.fr",
     altWheel: "Roue de la chance Boumrank sur mobile",
   },
   projects: {
     title: "Autres projets",
     visit: "Voir le site",
     featured: [
+      {
+        name: "Iaora Labs",
+        desc: "Le site de mon agence : 25 pages en français et en anglais, un assistant IA branché sur l'API Claude en moins de 3 ko de JavaScript, et un calculateur d'aides publiques.",
+        tech: "Astro, API Claude, Vercel",
+        url: "https://iaoralabs.com/",
+        image: "/projects/iaoralabs.jpg",
+        alt: "Page d'accueil du site Iaora Labs",
+      },
+      {
+        name: "Tamanu Services",
+        desc: "Site d'une boutique d'impression à Punaauia, avec un studio de personnalisation en ligne : le client dépose son visuel, voit le prix estimé en direct et envoie sa demande de devis.",
+        tech: "Next.js, Neon Postgres, Vercel Blob, Resend",
+        url: "https://www.tamanu-services.com/",
+        image: "/projects/tamanu-services.jpg",
+        alt: "Page d'accueil du site Tamanu Services",
+      },
+      {
+        name: "PRO Interim Tahiti",
+        desc: "Site d'une agence d'intérim et de recrutement à Tahiti : les entreprises demandent du personnel en ligne, les candidats consultent les offres et postulent.",
+        tech: "Next.js",
+        url: "https://pro-interim.vercel.app/",
+        image: "/projects/pro-interim.jpg",
+        alt: "Page d'accueil du site PRO Interim Tahiti",
+      },
       {
         name: "Tahiti Smoothies",
         desc: "Site vitrine d'une enseigne de smoothies en Polynésie, conçu en appui du lancement d'un second point de vente.",
@@ -71,11 +95,6 @@ const fr = {
     ],
     more: [
       {
-        name: "Réponses IA aux avis Google",
-        desc: "SaaS qui rédige et publie des réponses aux avis Google des PME locales. En développement.",
-        tech: "React, Supabase, Claude",
-      },
-      {
         name: "Murmure",
         desc: "App macOS de dictée vocale : transcription locale, insertion du texte dans n'importe quelle app.",
         tech: "Swift",
@@ -86,7 +105,13 @@ const fr = {
     title: "Parcours",
     entries: [
       {
-        dates: "Oct. 2025 - aujourd'hui",
+        dates: "Août 2026 - aujourd'hui",
+        role: "Fondateur",
+        org: "Iaora Labs, Faaa (Tahiti)",
+        desc: "Agence de transformation digitale en Polynésie française : outils sur mesure, création web, formation à l'IA.",
+      },
+      {
+        dates: "Oct. 2025 - sept. 2026",
         role: "Concepteur & développeur produit",
         org: "Boumrank, Marseille",
         desc: "SaaS de gamification pour commerçants locaux, du concept au déploiement.",
@@ -141,7 +166,7 @@ const fr = {
       },
       {
         name: "Développement produit",
-        items: ["React", "TypeScript", "Supabase", "WordPress", "HTML / CSS / JS"],
+        items: ["Next.js", "React", "TypeScript", "Supabase", "WordPress", "HTML / CSS / JS"],
       },
       {
         name: "IA & automatisation",
@@ -193,16 +218,20 @@ const fr = {
         title: "La mesure ensuite",
         desc: "Analytics et SEO guident chaque itération après la mise en ligne.",
       },
+      {
+        title: "Le décalage horaire en plus",
+        desc: "Je travaille depuis Tahiti (UTC-10). Depuis l'Europe, vous m'écrivez le soir et le travail a avancé à votre réveil. Sur la côte ouest américaine, nous partageons la même journée.",
+      },
     ],
   },
   contact: {
     title: "Un poste, une mission, un projet ?",
-    sub: "Parlons-en. Réponse rapide, en français ou en anglais.",
+    sub: "Parlons-en. Réponse sous 24 h, en français ou en anglais.",
     linkedin: "LinkedIn",
   },
   footer: {
     made: "Conçu et codé par mes soins.",
-    location: "Marseille, France",
+    location: "Faaa, Tahiti, Polynésie française",
   },
 };
 
@@ -217,7 +246,7 @@ const en: typeof fr = {
   hero: {
     title1: "I design the strategy.",
     title2: "I build the tool.",
-    sub: "SEO, acquisition, data and AI. A KEDGE-trained marketer, I build my own products, end to end. Based in Marseille, France.",
+    sub: "Digital marketing, web development and AI for small businesses, shops and SaaS teams. I build the website or tool, bring in its first customers and plug AI into it. Working remotely from Tahiti.",
     ctaProjects: "View my projects",
     ctaContact: "Contact",
     portraitAlt: "Portrait of Maui Manavarere",
@@ -225,7 +254,7 @@ const en: typeof fr = {
   boumrank: {
     title: "Boumrank: designed, built, shipped.",
     lead: "A QR code at the counter, a mini-game, a reward: Boumrank turns checkout moments into Google reviews and repeat customers.",
-    role: "I designed and built the entire product: game flows, user logic, automations. It now runs in several shops across Marseille.",
+    role: "From October 2025 to September 2026, I helped launch it, then designed and built the entire product: game flows, user logic, automations. It was rolled out to several merchants.",
     facts: [
       {
         title: "National Student-Entrepreneur Status",
@@ -236,18 +265,42 @@ const en: typeof fr = {
         desc: "Supported within Aix-Marseille University.",
       },
       {
-        title: "In production",
-        desc: "Used in real shops, in real conditions, every day.",
+        title: "Deployed in shops",
+        desc: "Put into service at several merchants, in real conditions.",
       },
     ],
-    link: "Visit boumrank.com",
-    altHome: "Homepage of boumrank.com",
+    link: "Visit boumrank.fr",
+    altHome: "Homepage of boumrank.fr",
     altWheel: "Boumrank prize wheel on mobile",
   },
   projects: {
     title: "Other projects",
     visit: "Visit site",
     featured: [
+      {
+        name: "Iaora Labs",
+        desc: "My agency's website: 25 pages in French and English, an AI assistant on the Claude API in under 3 KB of JavaScript, and a public funding calculator.",
+        tech: "Astro, Claude API, Vercel",
+        url: "https://iaoralabs.com/",
+        image: "/projects/iaoralabs.jpg",
+        alt: "Iaora Labs website home page",
+      },
+      {
+        name: "Tamanu Services",
+        desc: "Website for a print shop in Punaauia, with an online customization studio: customers upload their design, see a live price estimate and send a quote request.",
+        tech: "Next.js, Neon Postgres, Vercel Blob, Resend",
+        url: "https://www.tamanu-services.com/",
+        image: "/projects/tamanu-services.jpg",
+        alt: "Tamanu Services website home page",
+      },
+      {
+        name: "PRO Interim Tahiti",
+        desc: "Website for a staffing and recruitment agency in Tahiti: businesses request staff online, candidates browse job offers and apply.",
+        tech: "Next.js",
+        url: "https://pro-interim.vercel.app/",
+        image: "/projects/pro-interim.jpg",
+        alt: "PRO Interim Tahiti website home page",
+      },
       {
         name: "Tahiti Smoothies",
         desc: "Storefront site for a French Polynesian smoothie brand, built to support the launch of a second location.",
@@ -267,11 +320,6 @@ const en: typeof fr = {
     ],
     more: [
       {
-        name: "AI replies to Google reviews",
-        desc: "SaaS that drafts and publishes replies to local businesses' Google reviews. In development.",
-        tech: "React, Supabase, Claude",
-      },
-      {
         name: "Murmure",
         desc: "macOS dictation app: local transcription that types into any application.",
         tech: "Swift",
@@ -282,7 +330,13 @@ const en: typeof fr = {
     title: "Experience",
     entries: [
       {
-        dates: "Oct. 2025 - present",
+        dates: "Aug. 2026 - present",
+        role: "Founder",
+        org: "Iaora Labs, Faaa (Tahiti)",
+        desc: "Digital transformation agency in French Polynesia: custom tools, websites, AI training.",
+      },
+      {
+        dates: "Oct. 2025 - Sep. 2026",
         role: "Product designer & developer",
         org: "Boumrank, Marseille",
         desc: "Gamification SaaS for local merchants, from concept to deployment.",
@@ -337,7 +391,7 @@ const en: typeof fr = {
       },
       {
         name: "Product development",
-        items: ["React", "TypeScript", "Supabase", "WordPress", "HTML / CSS / JS"],
+        items: ["Next.js", "React", "TypeScript", "Supabase", "WordPress", "HTML / CSS / JS"],
       },
       {
         name: "AI & automation",
@@ -389,16 +443,20 @@ const en: typeof fr = {
         title: "Then measurement",
         desc: "Analytics and SEO drive every iteration after launch.",
       },
+      {
+        title: "The time zone on your side",
+        desc: "I work from Tahiti (UTC-10). From Europe, send me a brief in the evening and wake up to progress. On the US West Coast, we share the same working day.",
+      },
     ],
   },
   contact: {
     title: "A role, a contract, a project?",
-    sub: "Let's talk. Quick reply, in French or English.",
+    sub: "Let's talk. Reply within 24 hours, in French or English.",
     linkedin: "LinkedIn",
   },
   footer: {
     made: "Designed and coded by me.",
-    location: "Marseille, France",
+    location: "Faaa, Tahiti, French Polynesia",
   },
 };
 
@@ -407,8 +465,8 @@ export type Dict = typeof fr;
 export const dictionaries: Record<Lang, Dict> = { fr, en };
 
 export const EMAIL = "mauimanavarere@gmail.com";
-export const LINKEDIN_URL = "https://www.linkedin.com/in/mauimanavarere";
-export const BOUMRANK_URL = "https://boumrank.com";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/maui-manavarere-422609225/";
+export const BOUMRANK_URL = "https://boumrank.fr";
 
 const LangContext = createContext<{
   lang: Lang;

@@ -10,16 +10,11 @@ import {
   useScroll,
   useTransform,
 } from "motion/react";
-import {
-  ArrowUpRight,
-  ChatCircleText,
-  Waveform,
-  type Icon,
-} from "@phosphor-icons/react";
+import { ArrowUpRight, Waveform, type Icon } from "@phosphor-icons/react";
 import { Reveal } from "@/components/reveal";
 import { useLang, type Dict } from "@/lib/i18n";
 
-const MORE_ICONS: Icon[] = [ChatCircleText, Waveform];
+const MORE_ICONS: Icon[] = [Waveform];
 
 function displayDomain(url: string) {
   return url
@@ -213,7 +208,7 @@ function MoreProjects({ t }: { t: Dict }) {
     <div className="mx-auto max-w-[1200px] px-4 pb-20 md:px-8 md:pb-28">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
         {t.projects.more.map((item, i) => {
-          const IconComponent = MORE_ICONS[i] ?? ChatCircleText;
+          const IconComponent = MORE_ICONS[i] ?? Waveform;
           return (
             <Reveal key={item.name} delay={i * 0.08}>
               <article className="flex h-full items-start gap-5 rounded-2xl border border-zinc-200 bg-white p-6 dark:border-zinc-800 dark:bg-zinc-900 md:p-8">

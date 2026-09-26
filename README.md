@@ -24,7 +24,7 @@ npm run lint     # eslint
 - `lib/i18n.tsx` : dictionnaires FR/EN complets + `LangProvider` (toggle nav, persistance localStorage, détection navigateur)
 - `components/` : une section par fichier (hero, boumrank, projects, experience, skills, education, method, contact) + nav, footer, reveal
 - `public/portrait.png` : portrait (copié depuis « Profil pro.png »)
-- `public/projects/` : captures réelles de boumrank.com et de la roue (app.boumrank.com)
+- `public/projects/` : captures réelles de boumrank.fr et de la roue (app.boumrank.fr), et captures pleine page (1200 px de large, sans téléphone ni e-mail) des sites Iaora Labs, Tamanu Services, PRO Interim Tahiti, Tahiti Smoothies et Bored Lama Yacht Club
 
 ## Conventions verrouillées
 
@@ -35,6 +35,5 @@ npm run lint     # eslint
 
 ## À faire avant mise en ligne
 
-- Remplacer `metadataBase` dans `app/layout.tsx` par le domaine final (placeholder actuel : maui-manavarere.vercel.app).
-- Choisir le domaine et déployer (Vercel recommandé : `vercel deploy`).
+- En ligne sur https://mauimanavarere.com (`metadataBase` à jour). Déploiement : chaque poussée sur `main` part en production sur Vercel (projet `maui-site`, relié au dépôt GitHub).
 - Le numéro de téléphone du CV n'est volontairement pas publié (anti-spam) ; l'ajouter dans `lib/i18n.tsx` si souhaité.
