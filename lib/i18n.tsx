@@ -69,6 +69,14 @@ const fr = {
         alt: "Page d'accueil du site Tamanu Services",
       },
       {
+        name: "PRO Interim Tahiti",
+        desc: "Site d'une agence d'intérim et de recrutement à Tahiti : les entreprises demandent du personnel en ligne, les candidats consultent les offres et postulent.",
+        tech: "Next.js",
+        url: "https://pro-interim.vercel.app/",
+        image: "/projects/pro-interim.jpg",
+        alt: "Page d'accueil du site PRO Interim Tahiti",
+      },
+      {
         name: "Tahiti Smoothies",
         desc: "Site vitrine d'une enseigne de smoothies en Polynésie, conçu en appui du lancement d'un second point de vente.",
         tech: "React, Vite",
@@ -284,6 +292,14 @@ const en: typeof fr = {
         url: "https://www.tamanu-services.com/",
         image: "/projects/tamanu-services.jpg",
         alt: "Tamanu Services website home page",
+      },
+      {
+        name: "PRO Interim Tahiti",
+        desc: "Website for a staffing and recruitment agency in Tahiti: businesses request staff online, candidates browse job offers and apply.",
+        tech: "Next.js",
+        url: "https://pro-interim.vercel.app/",
+        image: "/projects/pro-interim.jpg",
+        alt: "PRO Interim Tahiti website home page",
       },
       {
         name: "Tahiti Smoothies",

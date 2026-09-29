@@ -24,7 +24,7 @@ npm run lint     # eslint
 - `lib/i18n.tsx` : dictionnaires FR/EN complets + `LangProvider` (toggle nav, persistance localStorage, détection navigateur)
 - `components/` : une section par fichier (hero, boumrank, projects, experience, skills, education, method, contact) + nav, footer, reveal
 - `public/portrait.png` : portrait (copié depuis « Profil pro.png »)
-- `public/projects/` : captures réelles de boumrank.fr et de la roue (app.boumrank.fr), et captures pleine page (1200 px de large, sans téléphone ni e-mail) des sites Iaora Labs, Tamanu Services, Tahiti Smoothies et Bored Lama Yacht Club
+- `public/projects/` : captures réelles de boumrank.fr et de la roue (app.boumrank.fr), et captures pleine page (1200 px de large, sans téléphone ni e-mail) des sites Iaora Labs, Tamanu Services, PRO Interim Tahiti, Tahiti Smoothies et Bored Lama Yacht Club
 
 ## Conventions verrouillées
 
